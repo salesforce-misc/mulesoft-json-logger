@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <!-- Update groupId -->
-    <groupId>com.mike</groupId>
+    <groupId>ORG_ID_TOKEN</groupId>
     <artifactId>json-logger</artifactId>
     <version>3.0.1-SNAPSHOT</version>
     <packaging>mule-extension</packaging>
