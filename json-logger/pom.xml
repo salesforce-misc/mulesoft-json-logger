@@ -28,6 +28,7 @@
         <json.path.version>2.9.0</json.path.version>
         <min.mule.version>4.6.0</min.mule.version>
         <munit.version>3.1.0</munit.version>
+        <json.smart.version>2.4.11</json.smart.version>
         <munit.extensions.maven.plugin.version>1.2.0</munit.extensions.maven.plugin.version>
         <mule.extensions.maven.plugin.version>1.6.0-rc1</mule.extensions.maven.plugin.version>
     </properties>
@@ -150,6 +151,11 @@
             <artifactId>joda-time</artifactId>
             <version>${joda.time.version}</version>
         </dependency>
+        <dependency>
+            <groupId>net.minidev</groupId>
+           <artifactId>json-smart</artifactId>
+            <version>${json.smart.version}</version>
+           </dependency>
         <dependency>
             <groupId>com.jayway.jsonpath</groupId>
             <artifactId>json-path</artifactId>
