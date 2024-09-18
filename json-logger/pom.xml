@@ -176,6 +176,7 @@
             <groupId>com.mulesoft.munit</groupId>
             <artifactId>munit-extensions-maven-plugin</artifactId>
             <version>${munit.extensions.maven.plugin.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
