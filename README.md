@@ -43,6 +43,12 @@ Rather than running the deploy script you can instead do:
 4. Ensure that the you have the name and credentials configured in your settings.xml to the exchange servers in the POM
 5. Run mvn deploy
 
+## Release Notes
+
+### 18th September 2024
+
+* Updated dependencies to fix vulnerabilities and and moved MUnit extensions to test scope as dependencies were being packaged with the JSON Logger which was adding ~50mb to deployable Mule jars
+
 ## Support disclaimer
 
 In case you haven't noticed the type of license for the source code, this is provided as a side project under MIT open source license which means it won't be officially supported by MuleSoft as it is considered a custom connector.
